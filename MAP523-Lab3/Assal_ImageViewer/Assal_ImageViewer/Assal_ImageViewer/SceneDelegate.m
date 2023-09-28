@@ -3,8 +3,6 @@
 //  Assal_ImageViewer
 //
 
-//
-
 #import "SceneDelegate.h"
 
 @interface SceneDelegate ()

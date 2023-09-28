@@ -1,8 +1,6 @@
 //
 //  ViewController.swift
 //  Bitcoin_App
-//
-//
 
 import UIKit
 class ViewController: UIViewController {

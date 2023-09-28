@@ -2,9 +2,6 @@
 //  TicketMaster.m
 //  Assal_Assignment1
 //
-
-//
-
 #import "TicketMaster.h"
 
 @implementation TicketMaster

@@ -1,9 +1,6 @@
 //
 //  main.m
 //  Calculator
-//
-
-//
 
 #import <UIKit/UIKit.h>
 #import "AppDelegate.h"

@@ -1,8 +1,6 @@
 //
 //  Currencys.swift
 //  Bitcoin_App
-//
-//
 
 import Foundation
 

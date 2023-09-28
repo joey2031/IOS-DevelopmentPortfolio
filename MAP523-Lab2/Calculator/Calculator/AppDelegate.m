@@ -3,8 +3,6 @@
 //  Calculator
 //
 
-//
-
 #import "AppDelegate.h"
 
 @interface AppDelegate ()

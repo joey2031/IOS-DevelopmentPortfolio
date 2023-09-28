@@ -2,9 +2,6 @@
 //  TicketMaster.h
 //  Assal_Assignment1
 //
-
-//
-
 #import <Foundation/Foundation.h>
 #import "Ticket.h"
 #import "SoldTicket.h"

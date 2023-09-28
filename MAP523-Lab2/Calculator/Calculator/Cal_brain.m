@@ -1,8 +1,5 @@
 //
 //  Cal_brain.m
-//  June4Example1
-//
-//  Created by sat on 2020-06-04.
 //  Copyright © 2020 SenecaCollege. All rights reserved.
 //
 

@@ -1,8 +1,6 @@
 //
 //  Service.swift
 //  Bitcoin_App
-//
-//
 /*
  https://apiv2.bitcoinaverage.com/indices/global/ticker/BTCMXN
  x-ba-key: NGUyMjI3ZDY0NzNhNDA1NDlkOTFiNjA0YzI4N2U0NjQ
@@ -31,7 +29,6 @@ class Service{
         
         let config = URLSessionConfiguration.default
         let session = URLSession(configuration: config)
-        // print("after let session")
         
         // NOTE: You must resume the data taks
         session.dataTask(with: request){(data, response, error) in
@@ -40,16 +37,14 @@ class Service{
                    // JSON is a bunch of NSDictionarys
                     let dictionaryObj = try? JSONSerialization.jsonObject(with: data, options: []) as? NSDictionary
                     
-                    // a couple of days after I handed this in I noticed I put 2 DispatchQueue.main.async, I pretty sure we dont need the first one.
                     DispatchQueue.main.async {
                         // This has to be the value type the api returns -> double
                         guard let askValue = dictionaryObj!["ask"] as? Double else {return}
                         print(askValue.description)
-                        // Not sure why this works: does it convert it to a string?
                         self.delegate?.bitCoinDidFinish(withData:(askValue.description))
                                                 
                     }
-                    print("bitCoinDidFinish has been called") // its being called
+                    print("bitCoinDidFinish has been called") 
                 }
             }
         }.resume()

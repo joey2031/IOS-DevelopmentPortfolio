@@ -3,8 +3,6 @@
 //  Assal_ImageViewer
 //
 
-//
-
 #import "ViewController.h"
 
 @interface ViewController ()
@@ -29,8 +27,6 @@
     self.i = 0;
 
     
-    //What this code is saying: create a new thread and fetch the image, then come back to the main thread to update the imageView
-    // In summary: Create new thread, in the second thread fetch the image and then go to the main thread and update the imageView.
     dispatch_queue_t myQ = dispatch_queue_create("myQ", NULL); // thread 2
     // Block A
     dispatch_async(myQ, ^{

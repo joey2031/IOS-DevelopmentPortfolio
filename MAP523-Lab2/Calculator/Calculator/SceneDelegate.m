@@ -3,8 +3,6 @@
 //  Calculator
 //
 
-//
-
 #import "SceneDelegate.h"
 
 @interface SceneDelegate ()

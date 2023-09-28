@@ -1,15 +1,10 @@
 //
 //  ViewController.m
 //  Calculator
-//
-
-//
-// This file "controls our storyboard"
 
 /*
  The way this calculator works: press: 2, enter, 5, enter, operand
  and then it will display the answer.
- Also note because we are doing [self popItem] - [self popItem] if you say 10-5 it will really do 5-10
 **/
 #import "ViewController.h"
 #import "Cal_brain.h"

@@ -3,8 +3,6 @@
 //  Assal_ImageViewer
 //
 
-//
-
 #import <UIKit/UIKit.h>
 #import "AppDelegate.h"
 
