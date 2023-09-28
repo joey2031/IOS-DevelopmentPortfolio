@@ -1,6 +1,6 @@
 # IOS-DevelopmentPortfolio
 
-Portfolio of projects I did in my iOS development course at Seneca, written in Objective-C and Swift. The following projects are included in this repository:
+Portfolio of projects I did in my IOS development course at Seneca, written in Objective-C and Swift. The following projects are included in this repository:
 
 - Calculator (Lab 2): A simple calculator to perform basic math operations.
 - Image Viewer (Lab 3): A simple image viewer with previous and next buttons to view images. Image links are from images.freeimages.com and stored in an array to be fetched.
